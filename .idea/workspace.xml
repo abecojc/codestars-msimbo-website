@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06103af6-65a2-4348-bdb1-f93077373e0c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/tailwind.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/contact-us.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -39,6 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -78,13 +88,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="ws" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="ws" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.ws" />
         <item itemvalue="npm.dev (2)" />
         <item itemvalue="npm.dev (1)" />
-        <item itemvalue="npm.dev (2)" />
-        <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -101,8 +121,6 @@
       <workItem from="1607022426942" duration="787000" />
       <workItem from="1607023288796" duration="488000" />
       <workItem from="1607023881027" duration="50214000" />
-      <workItem from="1607107211135" duration="2209000" />
-      <workItem from="1607372124289" duration="5096000" />
     </task>
     <task id="LOCAL-00001" summary="more changes">
       <created>1607012835190</created>
@@ -139,14 +157,7 @@
       <option name="project" value="LOCAL" />
       <updated>1607096426364</updated>
     </task>
-    <task id="LOCAL-00006" summary="edited the merged file">
-      <created>1607279985711</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1607279985711</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +167,6 @@
     <MESSAGE value="more changes" />
     <MESSAGE value="Changes made to index.html" />
     <MESSAGE value="Rearranged and added more features" />
-    <MESSAGE value="edited the merged file" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited the merged file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rearranged and added more features" />
   </component>
 </project>
