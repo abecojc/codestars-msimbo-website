@@ -47,7 +47,7 @@
       <recent name="$PROJECT_DIR$/.gitignore" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev (2)">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -80,10 +80,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.dev (2)" />
         <item itemvalue="npm.dev (1)" />
-        <item itemvalue="npm.dev" />
-        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev (2)" />
+        <item itemvalue="npm.dev (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -100,6 +101,8 @@
       <workItem from="1607022426942" duration="787000" />
       <workItem from="1607023288796" duration="488000" />
       <workItem from="1607023881027" duration="50214000" />
+      <workItem from="1607107211135" duration="2209000" />
+      <workItem from="1607372124289" duration="5096000" />
     </task>
     <task id="LOCAL-00001" summary="more changes">
       <created>1607012835190</created>
@@ -136,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607096426364</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="edited the merged file">
+      <created>1607279985711</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607279985711</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +156,7 @@
     <MESSAGE value="more changes" />
     <MESSAGE value="Changes made to index.html" />
     <MESSAGE value="Rearranged and added more features" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rearranged and added more features" />
+    <MESSAGE value="edited the merged file" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited the merged file" />
   </component>
 </project>
