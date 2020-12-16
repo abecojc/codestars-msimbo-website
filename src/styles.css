@@ -1,6 +1,6 @@
 @tailwind base;
 @tailwind components;
 
-
+@apply bg-red-500 p-5;
 
 @tailwind utilities;
