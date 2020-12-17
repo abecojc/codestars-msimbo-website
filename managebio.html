@@ -11,10 +11,25 @@
 
 <body>
 
-    <div class="grid gap-y-1 grid-cols-2 text-black text-center inline-block flex justify-evenly">
-<!--        Title-->
+  <form class="grid gap-y-1 grid-cols-2 text-black text-center inline-block flex justify-evenly">
+  
+<!--      drop down-->
+      <div class="dropdown">
+          <button onclick="selectDepartment()" class="dropbtn">Select Department</button>
+          <div id="myDropdown" class="dropdown-content">
+              <a href="exe">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+          </div>
+      </div>
+      
+      <button> </button>
+      <input> </input>
+        
         <div class="bg-red-700 text-black border-black border-2 rounded-lg p-1 w-40 m-2 text-lg col-span-2">Management Bio</div>
-        <div class="bg-red-700 text-black border-black border-2 rounded-lg p-1 text-sm col-span-2">Executive Office</div>
+        
+        <div id="execOffice" class="bg-red-700 text-black border-black border-2 rounded-lg p-1 text-sm col-span-2">Executive Office</div>
+        
         
         <div class="border-black border-2 rounded-l-xl p-1 text-xs hover:bg-red-700"><a href="drmotley.html" class="hover:underline hover:font-bold">Dr. J. Keith Motley</a></div>
         <div class="border-black border-2 rounded-r-xl p-1 text-xs">Consultant President/CEO</div>
@@ -25,7 +40,8 @@
         <div class="border-black border-2 rounded-l-xl p-1 text-xs hover:bg-red-700"><a href="drmotley.html" class="hover:underline hover:font-bold">Natalie Haywood</a></div>
         <div class="border-black border-2 rounded-r-xl p-1 text-xs">Executive Assistant</div>
     
-        <div class="bg-red-700 text-black border-black border-2 rounded-lg p-1 text-sm col-span-2">Workforce Development Department</div>
+        <div id="workDev" class="bg-red-700 text-black border-black border-2 rounded-lg p-1 text-sm col-span-2">Workforce Development Department</div>
+        
         <div class="border-black border-2 rounded-l-xl p-1 text-xs hover:bg-red-700"><a href="drmotley.html" class="hover:underline hover:font-bold">William Watkins</a></div>
         <div class="border-black border-2 rounded-r-xl p-1 text-xs">Director of Workforce Development</div>
         <div class="border-black border-2 rounded-l-xl p-1 text-xs hover:bg-red-700"><a href="drmotley.html" class="hover:underline hover:font-bold">Debra Ames</a></div>
@@ -44,35 +60,15 @@
         <div class="border-black border-2 rounded-r-xl p-1 text-xs">IT Manager</div>
         
         <div class="bg-red-700 text-black border-black border-2 rounded-lg p-1 text-sm col-span-2">Office of Violence Against Woman Domestic/Sexual Violence Program</div>
+        
         <div class="border-black border-2 rounded-l-xl p-1 text-xs hover:bg-red-700"><a href="drmotley.html" class="hover:underline hover:font-bold">Traci Jackson Antoine</a></div>
         <div class="border-black border-2 rounded-r-xl p-1 text-xs">Executive Director, OVW Domestic/Sexual Violence Program</div>
         <div class="border-black border-2 rounded-l-xl p-1 text-xs hover:bg-red-700"><a href="drmotley.html" class="hover:underline hover:font-bold">Tonya Kibbe</a></div>
         <div class="border-black border-2 rounded-r-xl p-1 text-xs">Assistant Coordinator, OVW Domestic/Sexual Violence Program</div>
-       
       
-<!--        <div class="bg-red-700 rounded border-black border-2">-->
-<!--            <div>-->
-<!--                -->
-<!--                    <select class="appearance-none m-2 p-2 bo">-->
-<!--                        <option>Management Bio</option>-->
-<!--                    </select>-->
-<!--                    -->
-<!--                -->
-<!--                    <select class="hover:text-red-700 cursor-pointer">-->
-<!--                        <option><a href="drmotley.html">Executive Office</a> </option>-->
-<!--                        <option class="cursor-pointer bg-red-700">Workforce Development Department</option>-->
-<!--                        <option>Office of Violence Against Woman Domestic/Sexual Violence Program</option>-->
-<!--                    </select>-->
-<!--                    -->
-<!--                        <a href="drmotley.html">Executive</a>-->
-<!--    -->
-<!--                -->
-<!--            </div>-->
-<!--            -->
-<!--            -->
-<!--        </div>-->
         
-    </div>
+    </form>
+<scripts src="app.js"></scripts>
 
 </body>
 </html>
