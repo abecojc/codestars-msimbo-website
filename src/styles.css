@@ -3,6 +3,6 @@
 @tailwind components;
 
 #front {
-    @apply bg-red-700 m-5 p-2;
+    @apply bg-white;
 }
 @tailwind utilities;
