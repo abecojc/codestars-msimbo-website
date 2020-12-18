@@ -27,11 +27,11 @@ function validEmpty(input) {
         //calls for the showSuccess function and displays a message
         showSuccess(input,`${inputName} is entered`)
     }
-    if (password.value===password2.value && password.value==="" && password2.value===""){
+    if (password.value===password2.value ){
         showSuccess(password2,'Match')
     }
 }
-
+//&& password.value==="" && password2.value===""
 // displays a message box next to the empty input field
 function showError(input, msg){
     // uses styling from tailwind.css file

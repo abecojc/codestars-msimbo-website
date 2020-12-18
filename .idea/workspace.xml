@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06103af6-65a2-4348-bdb1-f93077373e0c" name="Default Changelist" comment="" />
+    <list default="true" id="06103af6-65a2-4348-bdb1-f93077373e0c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app2.js" beforeDir="false" afterPath="$PROJECT_DIR$/app2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awet.html" beforeDir="false" afterPath="$PROJECT_DIR$/awet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/hieu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pascal.html" beforeDir="false" afterPath="$PROJECT_DIR$/pascal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/signin.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +129,7 @@
       <workItem from="1608136937403" duration="16814000" />
       <workItem from="1608216705325" duration="28218000" />
       <workItem from="1608300589029" duration="3643000" />
-      <workItem from="1608304300144" duration="13988000" />
+      <workItem from="1608304300144" duration="19230000" />
     </task>
     <task id="LOCAL-00001" summary="more changes">
       <created>1607012835190</created>
@@ -214,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608318884954</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="more edits">
+      <created>1608319236265</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608319236265</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
