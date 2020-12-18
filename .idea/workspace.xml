@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="06103af6-65a2-4348-bdb1-f93077373e0c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tailwind.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +122,7 @@
       <workItem from="1608069546098" duration="112000" />
       <workItem from="1608136937403" duration="16814000" />
       <workItem from="1608216705325" duration="28218000" />
+      <workItem from="1608300589029" duration="624000" />
     </task>
     <task id="LOCAL-00001" summary="more changes">
       <created>1607012835190</created>
