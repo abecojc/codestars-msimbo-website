@@ -1,20 +1,21 @@
 
-const drop = document.getElementById("dropdown")
-console.log(drop)
-const items = document.getElementById("menu")
-
-const materials = document.getElementById("resources")
-
-selectMenu(drop)
-selectMenu(items)
-selectMenu(materials)
-
-function selectMenu(select){
-    console.log(select)
-    if(select){
-
-    }
-}
+//
+// const drop = document.getElementById("dropdown")
+// console.log(drop)
+// const items = document.getElementById("menu")
+//
+// const materials = document.getElementById("resources")
+//
+// selectMenu(drop)
+// selectMenu(items)
+// selectMenu(materials)
+//
+// function selectMenu(select){
+//     console.log(select)
+//     if(select){
+//
+//     }
+// }
 
 //----------------------------------------------
 //
@@ -60,22 +61,22 @@ function selectMenu(select){
 // Declaring variables
 const contactForm = document.getElementById('entry')
 
-const firstname = document.getElementById('username')
+const firstname = document.getElementById('first')
 
-const lastname = document.getElementById('username')
+const lastname = document.getElementById('last')
 
 const email = document.getElementById('email')
 
-const comment = document.getElementById('')
+const comment = document.getElementById('message')
 
 // Function to execute when 'Register Now' button is clicked
-regForm.addEventListener('submit', function (e) {
+contactForm.addEventListener('submit', function (e) {
     e.preventDefault()
 
-    validateEmpty(username)
+    validateEmpty(firstname)
+    validateEmpty(lastname)
     validateEmpty(email)
-    validateEmpty(password)
-    validateEmpty(password2)
+    validateEmpty(comment)
 
 })
 
@@ -105,14 +106,11 @@ function showSuccess(input,msg) {
     input.nextElementSibling.innerHTML =`<small class="success">${msg}</small>`
 }
 
-
-
-function ValidateEmail(mail)
-{
-    if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(myForm.emailAddr.value))
-    {
-        return (true)
-    }
-    alert("You have entered an invalid email address!")
-    return (false)
-}
+// function ValidateEmail(email)
+// {
+//     if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(myForm.emailAddr.value))
+//     {
+//         return (true)
+//     }
+//     alert("Not a valid email address!")
+//     return (false)}
